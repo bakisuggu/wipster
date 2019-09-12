@@ -1,0 +1,478 @@
+﻿
+@model WipsterHem.Models.ContactViewModel
+<script>
+    function showmorelessFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Läs mer";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Läs färre";
+            moreText.style.display = "inline";
+        }
+    }
+
+    function showmorelessFunction1() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Läs mer";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Läs färre";
+            moreText.style.display = "inline";
+        }
+    }
+
+    function showmorelessFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Läs mer";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Läs färre";
+            moreText.style.display = "inline";
+        }
+    }
+    function showmorelessFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Läs mer";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Läs färre";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+<style>
+    #more {
+        display: none;
+    }
+
+    #more1 {
+        display: none;
+    }
+
+    #more2 {
+        display: none;
+    }
+
+    #more3 {
+        display: none;
+    }
+
+    #wipstersection {
+        background-image: linear-gradient(to right, rgba(255,255,255), rgba(255,255,255));
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #services {
+        background-image: url('../images/image1.jpg');
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #ledigjobb {
+        background-image: url('../images/wipster3.jpg');
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #header {
+        background-image: linear-gradient(to right, rgba(255,255,255), rgba(255,255,255));
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #grad {
+        background-image: linear-gradient(to right, rgba(255,250,250), rgba(255,250,250));
+        margin-top: 10px;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    #grad1 {
+        background-image: linear-gradient(to right, rgba(238,238,238), rgba(249,249,249));
+        margin-top: 10px;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    #grad2 {
+        background-image: linear-gradient(to right, rgba(255,211,166), rgba(246,228,209));
+        margin-top: 10px;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+</style>
+<section id="header">
+    <div class="container text-center">
+        <div class="row" style="margin-bottom:20px">
+            <div class="embed-responsive embed-responsive-16by9">
+                <video autoplay muted loop>
+                    <source src="~/Videos/editvideo1.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+    </div>
+</section>
+@*<div class="row" style="margin-bottom:15px">
+    <div class="container">
+        <div class="col-lg-12 mx-auto text-left">
+            <span style='font-size:25px;font-weight:bold'>Om Wipster &#10069;</span>
+        </div>
+    </div>
+</div>*@
+<section class="text-center" id="wipstersection">
+    <div class="container text-center" style="background-color:	white">
+
+        <div class="row" style="margin-bottom:15px">
+            <div class="col-md-12">
+                <h2 style="color:#F74FB9;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'"><strong>Wipster</strong> är ett IT-konsultföretag som jobbar med digitalisering inom olika branscher.</h2>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom:20px">
+            <div class="col-md-12">
+                <h3 class="text-faded mb-5" style="color:#F74FB9;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';margin-bottom:20px;text-indent:30px">
+                    Wipster består av vår tids digitala astronauter, redo att definiera den digitala framtiden. Vi förstår hur viktigt det är
+                    <p>att leverera i tid, med rätt kvalitet och till budgeterad kost eftersom nöjda kunder är vad som "brings home the bacon".</p>
+                        <br />
+</h3>
+                <h2 style="color:hotpink;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';font-weight:900;border:1px,medium">Följande är viktigt för oss</h2>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center" style="height:180px">
+                        <div class="panel-body">
+                            <h3 style="color:black; font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'"> Transformativ digitalisering genom fokus på innovation och algil företagsstyrning med struktur i vardagen.</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center" style="height:180px">
+
+                        <div class="panel-body">
+                            <h3 style="color:black; font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'"> Många människors insikter skapar en bättre helhetsbild och är den bästa möjliggöraren för optimal strategisk förflyttning.</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center" style="height:180px">
+
+                        <div class="panel-body">
+                            <h3 style="color:black; font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'"> Genom att bekräfta och nyttja personliga styrkor, kunskap och motivation släpper du loss kraften hos verkligt engagerade individer.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="row">
+    <div class="container" style="margin-bottom:20px;">
+        <div class="col-lg-12 mx-auto text-left">
+            <a class="btn btn-xl  js-scroll-trigger" style="color:black;font-weight:900;text-align:center" href="#services">
+                <span style='font-size:25px;font-weight:bold'>Mer om oss &#10067;</span>
+            </a>
+        </div>
+    </div>
+</div>
+<section class="text-center" id="services">
+    <div class="row" style="margin-bottom:25px">
+        <div class="row" style="margin-bottom:5px;">
+            <h2 style="text-align:center;font-weight:bold;color:#e76da5;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">Nedan Du kan hitta alla vår Tjänster</h2>
+        </div>
+        <div class="row">
+            <div class="container" style="background-color:#ffffff;opacity:0.9;border:solid 0.5px lightpink;box-shadow:10px 10px 5px grey">
+                <div class="col-md-12">
+                    <h2 style="color:#860707;font-weight:900;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">Bli Partner</h2>
+                    <h3 style="font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';color:black;font-weight:700">
+                        Att vara underkonsult/partner till Wipster har många fördelar: hjälp att hitta nya uppdrag, mindre administration,
+                        tillgång till en kontorsplats, och inte minst kollegor att utbyta erfarenheter med.
+                        Vi söker erfarna och hungriga IT-konsulter (egen företagare/mindre bolag med F-skattsedel) som vill joina vårt nätverk av underkonsulter och partners. Hör av dig så berättar vi mer.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:50px">
+            <div class="container" style="background-color:#ffffff;opacity:0.9;border:solid 0.5px lightpink;box-shadow:10px 10px 5px grey">
+                <div class="container col-md-12">
+                    <h2 style="color:#860707;font-weight:900">Konsult</h2>
+                    <h3 style="font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';color:black;font-weight:700">
+                        Är du konsult inom IT eller nyfiken på att bli?
+                        Wipster är ett konsultföretag som erbjuder konsulttjänster inom IT.
+                        Vi förstår hur viktigt det är att leverera i tid, med rätt kvalitet och till budgeterad kost då vi vill ha nöjda kunder och samtidigt har vi insikt om att det är kunderna som betalar våra löner.
+                        Som konsult hos Wipster finner du människor, inte robotar, som brinner för att hjälpa våra kunder med deras utmaningar och samtidigt bygger nya varaktiga relationer
+                        För oss är det viktigt att ha en bra balans mellan jobb och fritid, då vi alla har intressen utanför jobbet, vi kallar denna framgångsformel - välmående.
+                        Vi sätter individen i fokus då vi är väl medvetna om att våra anställdas personlighet, kompetens och erfarenheter är vår viktigaste tillgång
+                        Socialt umgänge på jobbet med kollegorna är en krydda i vardagen och viktigt för oss vilket är något som vi verkar för.
+                    </h3>
+                </div>
+                </div>
+            </div>
+  
+        <div class="row" style="margin-top:50px">
+            <div class="container"style="background-color:#ffffff;opacity:0.9;border:solid 0.5px lightpink;box-shadow:10px 10px 5px grey">
+                <div class="col-md-12">
+                    <h2 style="color:#910606;font-weight:900">Underkonsultanting </h2>
+                    <h3 style="font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';color:black;font-weight:700;">
+                        Att driva eget och IT-konsulta med full kontroll över verksamheten är lockande. Men att under pågående uppdrag även hinna bygga nätverk och jaga nya kunder har sina utmaningar. Det är här Wipster kommer in.
+                        Att vara underkonsult/partner till Wipster har många fördelar: hjälp att hitta nya uppdrag, mindre administration, tillgång till en kontorsplats, och inte minst kollegor att utbyta erfarenheter med.
+                        Vi söker erfarna och hungriga IT-konsulter (egen företagare/mindre bolag med F-skattsedel) som vill joina vårt nätverk av underkonsulter och partners. Hör av dig så berättar vi mer.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="row">
+    <div class="container" style="margin-bottom:15px">
+        <div class="col-lg-12 mx-auto text-center">
+            <a class="btn btn-xl js-scroll-trigger" style="margin-bottom:15px" href="#ledigjobb"><span style='font-size:25px;font-weight:bold;color:black;'>Ledig jobb &#8595;</span></a>
+        </div>
+    </div>
+</div>
+<section class=" bg-info  text-center" id="ledigjobb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 style="color:#FF1493; font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';font-weight:bold">Vi Söker </h2>
+                <h3 style="font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif';color:#FA8787;color: white;text-align:center">
+                    Välkommen till Wipster och till platsen där du hittar alla lediga positioner inom olika affärsområden..
+                </h3>
+                <br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom:15px">
+                <div class="col-lg-4 text-left">
+                    <h2 style="color:white;text-shadow:0 0 2px #FF0000;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">.NET Utvecklare/C# Utvecklare</h2>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 style="color:salmon;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">
+                        Vi söker nu APP- och/eller WEB-utvecklare som vill jobba med utveckling inom Android, iOS, Java eller C#, .NET,SQL internprojekt
+                        <span id="dots">...</span>
+                    </h4>
+                </div>
+                <div class="col-lg-4"> <button type="button" onclick="showmorelessFunction()" id="myBtn" style="background-color: #e76da5;color: #fff;margin-top:20px">Läs mer</button></div>
+            </div>
+            <div class="col-lg-12 text-left" id="more">
+                <p style="color:lightcoral;font-size:18px">Kompetensekrav och personliga egenskaper</p>
+                <ul style="list-style-type:circle;color:white;font-size:17px;font-weight:bold">
+
+                    <li> inom data eller ekvivalent utbildning</li>
+                    <li> har minst 3 års dokumenterad erfarenhet inom mjukvaruutveckling</li>
+                    <li> erfarenhet av C#, .NET, and SQL.</li>
+                    <li> Flerårig arbetslivserfarenhet som Android eller iOS APP-utvecklare alternativt en passionerad hemma-utvecklare</li>
+                    <li> Har du jobbat med ren Android/iOS-, .NET-, backend-utveckling eller inom inbyggda system och har ett intresse att bredda dig så är det meriterande.</li>
+                    <li>byggt moderna webblösningar på Azure</li>
+                    <li> Du har en visionär förmåga och är bra på att sätta tydliga mål.</li>
+                </ul>
+                <hr />
+            </div>
+            <div class="col-lg-12 text-center" style="margin-bottom:15px">
+                <div class="col-lg-4 text-left">
+                    <h2 style="color:white;text-shadow:0 0 2px #FF0000;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">Java Utvecklare/Fullstack Utvecklare</h2>
+                </div>
+                <div class="col-lg-4">
+                    <h4 style="color:salmon;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">
+                        Vi söker efter mer skickliga Java-utvecklare som har några års erfarenhet av utveckling i Java. Och vem är säker på att arbeta med Linux-miljöer och containrar.
+                        <span id="dots1">...</span>
+                    </h4>
+                </div>
+                <div class="col-lg-4">
+                    <button type="button" onclick="showmorelessFunction1()" id="myBtn1" style="background-color: #e76da5;color: #fff;margin-top:20px">Läs mer</button>
+                </div>
+
+            </div>
+            <div class="col-lg-12 text-left" id="more1">
+                <p style="color:lightcoral;font-size:18px">Kompetensekrav och personliga egenskaper</p>
+                <ul style="list-style-type:circle;color:white;font-size:17px;font-weight:bold">
+                    <li> Bra kunskap inom JavaEE/Spring och JavaSE</li>
+                    <li>Moln/Datautvinning (Cloud/Data mining) Amazon web services eller Microst Azure </li>
+                    <li>Web tekniker som HTML5, CSS3,Javascript , Angular, Amber och ReactJs</li>
+                    <li>Microservices/Serverless Architeucture, REST API</li>
+                    <li>Kunskap inom Docker, Containers och K8S</li>
+                    <li>Någon av databaser som SQL Server, Oracle, MongoDb, Postgresql.</li>
+                    <li>
+                        stort intresse för att lära sig ny teknik
+                    </li>
+                    <li>Du är nyfiken och flexibel person. Driven av att alltid hitta nya sätt att effektivisera och automatisera så många delar i projekten som möjligt.</li>
+                    <li>Som person behöver du vara resultatorienterad, självgående, nätverkande, öppensinnad och ha en ödmjuk framtoning.</li>
+                </ul>
+                <hr />
+            </div>
+            <div class="col-lg-12 text-center" style="margin-bottom:15px">
+                <div class="col-lg-4 text-left">
+                    <h2 style="color:white;text-shadow:0 0 2px #FF0000;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">Testare/Test Lead</h2>
+                </div>
+                <div class="col-lg-4">
+                    <h4 style="color:salmon;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">
+                        Vi söker efter Testare/Test leadare med att leda produktutveckling i agil
+                        <span id="dots2">...</span>
+                    </h4>
+                </div>
+                <div class="col-lg-4"><button type="button" onclick="showmorelessFunction2()" id="myBtn2" style="background-color: #e76da5;color: #fff;margin-top:20px">Läs mer</button></div>
+
+            </div>
+
+            <div class="col-lg-12 text-left" id="more2">
+                <p style="color:lightcoral;font-size:18px">Kompetensekrav och personliga egenskaper</p>
+                <ul style="list-style-type:circle;color:white;font-size:17px;font-weight:bold">
+                    <li> En äkta passion för mjukvarukvalitet och testning.</li>
+                    <li>Erfarenhet av tester i en medelstor eller storskalig smidig.</li>
+                    <li>Starka tekniska och felsökningsfärdigheter.</li>
+                    <li>Förståelse och praktisk erfarenhet av UI-testautomation på mobilplattformar, både Android och iOS</li>
+                    <li>Erfarenhet av API-testning</li>
+                    <li>Erfarenhet med problem- och projektspårningsprogramvara - JIRA</li>
+                    <li>Programmeringsupplevelse för att kunna identifiera orsakerna till problem i kodbasen och kommunicera effektivt med utvecklare.</li>
+                    <li>Du är driven med ett genuint intresse för systemutveckling och gillar att arbeta med hela utvecklingsprocessen.</li>
+                    <li>Du gillar att interagera med kunder och motivera dina medarbetare.</li>
+                </ul>
+                <hr />
+            </div>
+            <div class="col-lg-12 text-center" style="margin-bottom:15px">
+                <div class="col-lg-4 text-left">
+                    <h2 style="color:white;text-shadow:0 0 2px #FF0000;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">Scrum Master/Product Owner</h2>
+                </div>
+                <div class="col-lg-4">
+                    <h4 style="color:salmon;font-family:'Cambria, Cochin, Georgia, Times, Times New Roman, serif'">
+                        Vi söker nu Agila ledare för utveckling av Inbyggda System som vill jobba med att leda produktutveckling i agil
+                        <span id="dots3">...</span>
+                    </h4>
+                </div>
+                <div class="col-lg-4"><button type="button" onclick="showmorelessFunction3()" id="myBtn3" style="background-color: #e76da5;color: #fff;margin-top:20px">Läs mer</button></div>
+
+            </div>
+
+            <div class="col-lg-12 text-left" id="more3">
+                <p style="color:lightcoral;font-size:18px">Kompetensekrav och personliga egenskaper</p>
+                <ul style="list-style-type:circle;color:white;font-size:17px;font-weight:bold">
+                    <li> Flerårig teknisk utbildning på universitetsnivå inom mjukvaruutveckling eller el & elektronik, eller motsvarande erfarenhet från arbetslivet.</li>
+                    <li> Agil arbetsmetodik såsom Scrum, SAFe, Lean, KANBAN etc.</li>
+                    <li>Produktutveckling / Mjukvaruutveckling</li>
+                    <li>Scrum Master,Product Owner,Elteknisk projektledning</li>
+                    <li>Projektkoodinering inom el & elektronik, Release Management</li>
+                    <li>Configuration management,Kvalitetsledning inom mjukvara</li>
+                    <li>Du gillar att interagera med kunder och motivera dina medarbetare.</li>
+                    <li>Att jobba lösningsorienterat med produkt- / projektleveranser och kunden i fokus är givet för dig.</li>
+                </ul>
+                <hr />
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="row">
+    <div class="container" style="margin-bottom:20px;margin-top:20px">
+        <div class="col-lg-12 mx-auto text-center">
+            <a class="btn  btn-xl js-scroll-trigger" href="#contact"><span style='font-size:25px;font-weight:bold;color:black;'>&#9742; Kontakta oss &#9993;</span></a>
+        </div>
+    </div>
+</div>
+<section style="background-color:#FAFDFC" id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-5">
+                <br />
+                <div>
+                    <h3 style="color:#e76da5"><strong>Besök oss på</strong></h3>
+                    <h4>
+                        Klisgatan 4, Göteborg, Sweden<br />
+                        +46-7232-3245 <br />
+                        <p><b>Email:</b>info@wipster.se</p>
+                    </h4>
+                </div>
+
+                <br />
+                <h4 style="color:#e76da5">Kontakta oss så kommer vi tillbaka till dig inom 24 timmar </h4>
+            </div>
+            <div class="col-sm-7">
+                <br />
+               
+                <form action="mailto:balakrishnasuggu@outlook.com" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Namn" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="telephone" placeholder="Telephone" type="text">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="företag" placeholder="FöretagNamn" type="text">
+                </div>
+            </div>
+
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-sm-12 form-group">
+                    <button class="btn  pull-right" type="submit" style="box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);color: white;background-color:pink; margin: 4px 2px;font-weight:bold">Skicka</button>
+                </div>
+            </div>
+        </form>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12 col-lg-12">
+                <div class="map-responsive">
+                    <div class="gmap_canvas"><iframe width="1000" height="206" id="gmap_canvas" src="https://maps.google.com/maps?q=wipcore&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe><a href="https://www.embedgooglemap.net"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

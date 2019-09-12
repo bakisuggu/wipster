@@ -1,0 +1,111 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<section style="background-color:#FFF9F9;" id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-5">
+                <br />
+                <div>
+                    <p style="color:#e76da5"><strong>Besök oss</strong></p>
+                    Klisgatan 4, Göteborg, Sweden<br />
+                    +46-7232-3245 <br />
+                    <p>info@wipster.se</p>
+                </div>
+
+                <br />
+                <p style="color:#e76da5">Kontakta oss så kommer vi tillbaka till dig inom 24 timmar </p>
+            </div>
+            <div class="col-sm-7">
+                <br />
+                <form action="mailto:balakrishnasuggu@outlook.com" method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Namn" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="telephone" placeholder="Telephone" type="text">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="företag" placeholder="FöretagNamn" type="email">
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-primary pull-right" type="submit" style=" Background:#e76da5">Send</button>
+                        </div>
+                    </div>
+                </form>
+                <br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-1 col-lg-12">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="1050" height="356" id="gmap_canvas" src="https://maps.google.com/maps?q=wipcore&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*<div class="container">
+
+        <div class="row">
+            <div class="col-sm-5">
+                <br />
+                <div>
+                    <p style="color:#e76da5"><strong>Besök oss</strong></p>
+                    Klisgatan 4, Göteborg, Sweden<br />
+                    +46-7232-3245 <br />
+                    <p>info@wipster.se</p>
+                </div>
+
+                <br />
+                <p style="color:#e76da5">Kontakta oss så kommer vi tillbaka till dig inom 24 timmar </p>
+            </div>
+            <div class="col-sm-7">
+                <br />
+                <form action="mailto:balakrishnasuggu@outlook.com" method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Namn" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="telephone" placeholder="Telephone" type="text">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="företag" placeholder="FöretagNamn" type="email">
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-primary pull-right" type="submit" style=" Background:#e76da5">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12">
+                <div class="map-responsive ">
+                    <div class="gmap_canvas"><iframe width="1050" height="356" id="gmap_canvas" src="https://maps.google.com/maps?q=wipcore&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+                </div>
+            </div>
+        </div>
+    </div>*@
